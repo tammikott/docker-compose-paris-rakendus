@@ -1,0 +1,16 @@
+# Docker Compose Labor: ToDo raknduse ehitamine
+
+**Autor:** otammik
+**Keskkond** Ubuntu 22.04
+**Kasutatud vahendid** Docker, Docker Compose, Node.js, Nginx
+
+# Ülesande kirjeldus
+
+Ülesanne oli läbida labor, kus pidime ehitama multi-container ToDo rakenduse nelja erineva teenuse abil:
+
+### kasutatud teenused
+
+**Nginx** - Port 80 container, 8000 hostis
+**Frontend** - React rakendus (port 80 container)
+**API** - Node.js REST API (port 3000 container)
+**Database** - PostgreSQL andmebaas mis oli port 5432 containeris
